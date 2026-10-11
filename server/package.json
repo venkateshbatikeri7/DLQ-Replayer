@@ -1,0 +1,16 @@
+{
+  "name": "@agent-dlq/server",
+  "version": "1.0.0",
+  "description": "Fastify Control Plane & DLQ monitoring daemon for AI Agents",
+  "main": "dist/server/index.js",
+  "type": "module",
+  "dependencies": {
+    "@fastify/cors": "^10.0.2",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.1",
+    "ioredis": "^5.4.2",
+    "pino": "^9.6.0",
+    "pino-pretty": "^13.0.0"
+  },
+  "license": "MIT"
+}

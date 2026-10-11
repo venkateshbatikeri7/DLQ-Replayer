@@ -1,0 +1,39 @@
+{
+  "name": "agent-checkpoint-replayer",
+  "version": "1.0.0",
+  "description": "Production-ready AI Agent Checkpoint Replayer and Dead-Letter Queue (DLQ) using Node.js and Redis",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b",
+    "server": "tsx server/index.ts",
+    "agent:simulate": "tsx examples/simulate-agent.ts",
+    "test": "tsx examples/test-mock.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.1",
+    "@fastify/cors": "^10.0.2",
+    "ioredis": "^5.4.2",
+    "pino": "^9.6.0",
+    "pino-pretty": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "ioredis-mock": "^8.9.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "keywords": [
+    "ai-agents",
+    "redis",
+    "dlq",
+    "replayer",
+    "checkpoints",
+    "fastify",
+    "ioredis",
+    "distributed-systems"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "MIT"
+}

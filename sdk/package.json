@@ -1,0 +1,23 @@
+{
+  "name": "@agent-dlq/sdk",
+  "version": "1.0.0",
+  "description": "Lightweight checkpoint replayer & DLQ interceptor SDK for AI Agents",
+  "main": "dist/sdk/index.js",
+  "types": "dist/sdk/index.d.ts",
+  "type": "module",
+  "peerDependencies": {
+    "ioredis": "^5.0.0"
+  },
+  "dependencies": {
+    "pino": "^9.6.0"
+  },
+  "keywords": [
+    "ai-agent",
+    "checkpoint",
+    "dlq",
+    "redis",
+    "replay",
+    "interceptor"
+  ],
+  "license": "MIT"
+}
